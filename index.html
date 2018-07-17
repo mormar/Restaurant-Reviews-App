@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="author" content="Marcin Mokrzan">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <link rel="stylesheet" href="css/styles.css">
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <section class="container">
   <header>
     <nav>
       <h1><a href="/" class="restaurant-title">Restaurant Reviews</a></h1>
@@ -27,10 +28,10 @@
     <section>
       <div class="filter-options">
         <h2 class="filter-results">Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <select id="neighborhoods-select" name="neighborhoods" aria-label="Neighborhood Select" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <select id="cuisines-select" name="cuisines" aria-label="Cuisines Select" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
       </div>
@@ -44,7 +45,7 @@
   <footer id="footer">
     Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
-  </div>
+</section>
 </body>
 
 </html>
