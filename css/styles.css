@@ -14,7 +14,6 @@ body {
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
 	color: #333;
 }
 a {
@@ -38,6 +37,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
+	width: 100%;
 }
 /*#footer {
   background-color: #444;
@@ -65,14 +65,14 @@ nav h1 a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
-#breadcrumb {
+/*#breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
-}
+}*/
 
 /* Display list items side by side */
 #breadcrumb li {
@@ -98,11 +98,11 @@ nav h1 a {
     text-decoration: underline;
 }
 /* ====================== Map ====================== */
-#map {
+/*#map {
   height: 60rem;
   width: 100%;
   background-color: #ccc;
-}
+}*/
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
@@ -183,7 +183,7 @@ nav h1 a {
 }*/
 
 /* ====================== Restaurant Details ====================== */
-.inside header {
+/*.inside header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -272,4 +272,4 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
-}
+}*/
