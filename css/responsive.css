@@ -1,4 +1,4 @@
-/* Responsive Web Design */
+/* Responsive Web Design Homepage */
 @media screen and (max-width: 767px) {
   /* Main Restaurant title */
   .restaurant-title {
@@ -98,7 +98,7 @@
 
   /* Main Restaurant title */
   .restaurant-title {
-    font-size: 4.25rem;
+    font-size: 3.75rem;
     color: #EAEAEA;
     font-family: 'Gaegu', cursive;
   }
@@ -130,8 +130,9 @@
   }
 
   .filter-options h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.5rem;
+    font-family: 'Gaegu', cursive;
   }
 
   /* Restaurants list on main page */

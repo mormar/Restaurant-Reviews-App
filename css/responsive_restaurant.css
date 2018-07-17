@@ -1,5 +1,5 @@
+/* Responsive Web Design Restaurants */
 @media screen and (max-width: 767px) {
-  /* === Restaurant webpage === */
 
   nav h1 a {
     color: #fff;
@@ -114,4 +114,153 @@
     text-align: center;
     padding: 1rem;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+
+  h2 {
+    margin: 0;
+  }
+
+  .restaurant-title {
+    font-size: 3.25rem;
+  }
+
+  li {
+    display:block;
+    float:left;
+    width: 12rem;
+    padding: 0rem;
+  }
+
+  nav h1 a {
+    color: #fff;
+    font-size: 14pt;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+
+  #breadcrumb {
+    background-color: #eee;
+    font-size: 1.25rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  #breadcrumb li{
+    width: 17rem;
+  }
+
+  #map {
+    margin-top: 1rem;
+    height: 36rem;
+  }
+
+  /* Restaurant Details */
+  .inside header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1100;
+    background-color: #fff;
+  }
+
+  .inside #map-container {
+    height: 22rem;
+    width: 50%;
+    float: right;
+  }
+
+  .inside {
+    background-color: #ccc;
+    height: 100%;
+    width: 100%;
+  }
+
+  .inside #footer {
+    bottom: 0;
+  }
+
+  #restaurant-name {
+    color: #f18200;
+    font-family: Arial,sans-serif;
+    font-size: 1.75rem;
+    font-weight: 200;
+    letter-spacing: 0;
+    margin: 0.5rem 0 0.5rem;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+
+  #restaurant-img {
+    width: 90%;
+  }
+
+  #restaurant-address {
+    font-size: 1rem;
+    margin: 10px 0px;
+  }
+
+  #restaurant-cuisine {
+    background-color: #333;
+    color: #ddd;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #restaurant-container {
+    margin-top: 7rem;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding-top: 0.5rem;
+    text-align: center;
+    width: 50%;
+  }
+
+  #reviews-container {
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+
+  #reviews-container {
+    padding: 1rem;
+  }
+
+  #reviews-container h2 {
+    color: #f58500;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  #reviews-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  #reviews-list li {
+    background-color: #fff;
+    margin: 0.6rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+
+  #reviews-list li p {
+    margin: 0 0 0.5rem;
+  }
+
+  #restaurant-hours td {
+    color: #666;
+  }
+  
+  #restaurant-hours {
+    text-align: center;
+    padding: 1rem;
+  }
+
 }
